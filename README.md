@@ -23,13 +23,13 @@ Aplicação de Inteligência Artificial baseada em **RAG (Retrieval-Augmented Ge
 
 2. Crie e ative o ambiente virtual:
    ```bash
-  python3 -m venv venv
-  source venv/bin/activate
+   python3 -m venv venv
+   source venv/bin/activate
 
 3. Instale as dependências necessárias:
    ```bash
-  pip install langchain langchain-core langchain-community langchain-openai chromadb pypdf streamlit
+   pip install langchain langchain-core langchain-community langchain-openai chromadb pypdf streamlit
 
 4. Execute a instalação Streamlit:
    ```bash
-  streamlit run app.py --server.address=0.0.0.0 --server.port=8501 --server.enableCORS=false --server.enableXsrfProtection=false
+   streamlit run app.py --server.address=0.0.0.0 --server.port=8501 --server.enableCORS=false --server.enableXsrfProtection=false
